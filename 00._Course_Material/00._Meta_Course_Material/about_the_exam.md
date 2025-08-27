@@ -1,6 +1,6 @@
 # About the exam
 
-Read more about the official [course requirements](https://katalog.kea.dk/course/3050407/2024-2025).
+Read more about the official [course requirements](https://katalog.kea.dk/course/3050407/2025-2026).
 
 Everything in the link above holds true, but additional information can be found below. 
 

@@ -1,6 +1,6 @@
 # About the course
 
-[Kea Katalog](https://katalog.kea.dk/course/3050407/2024-2025)
+[Kea Katalog](https://katalog.kea.dk/course/3050407/2025-2026)
 
 ---
 
