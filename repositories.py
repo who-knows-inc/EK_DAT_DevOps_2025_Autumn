@@ -19,9 +19,13 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
   },
-    {
+  {
     "name": "CodeLab-DevOps",
     "gitLinks": ["https://github.com/CodeLab-DevOps", "https://github.com/CodeLab-DevOps/Frontend", "https://github.com/CodeLab-DevOps/Backend"],
+},
+  {
+    "name": "5%_uptime_gang",
+    "gitLinks": ["https://github.com/5-uptime-gang/10---uptime-gang.git"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
@@ -29,5 +33,4 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
   }
-  
 ]
