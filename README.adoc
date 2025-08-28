@@ -27,14 +27,14 @@ The semester is subject to future modifications and updates during the semester.
 | Aug. 28
 
 a| 
-// link:00._Course_Material/02._Slides/01._Introduction/01._course_introduction.md[Course Introduction]
-Introduction 
+link:00._Course_Material/02._Slides/01._Introduction/01._course_introduction.md[Course Introduction]
+// Introduction 
 
-// link:00._Course_Material/02._Slides/01._Introduction/02._the_legacy_project.md[The Legacy Project]
-The Legacy Project
+link:00._Course_Material/02._Slides/01._Introduction/02._the_legacy_project.md[The Legacy Project]
+// The Legacy Project
 
-// link:00._Course_Material/02._Slides/01._Introduction/03._conclusion.md[Conclusion]
-Conclusion
+link:00._Course_Material/02._Slides/01._Introduction/03._conclusion.md[Conclusion]
+// Conclusion
 
 a|
 link:00._Course_Material/01._Assignments/01._Introduction/01._Before/install_these.md[Install these]
