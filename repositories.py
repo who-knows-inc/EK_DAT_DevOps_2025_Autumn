@@ -18,5 +18,15 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-  }
+  },
+  {
+    "name": "5%_uptime_gang",
+    "gitLinks": ["https://github.com/5-uptime-gang/10---uptime-gang.git"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
 ]
