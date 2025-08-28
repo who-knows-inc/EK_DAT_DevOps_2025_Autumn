@@ -53,14 +53,14 @@ Video guide on how to download for Macbook M1 or newer: https://youtu.be/Qvfvj-U
 
 #### Try out your package manager
 
-Now that you have `homebrew` or `chocolately` installed see if you can install Python 2:
+Now that you have `homebrew` or `chocolately` installed see if you can install Python 3:
 
 ```bash
 $ brew install python
 ```
 
 ```powershell
-$ choco install python2
+$ choco install python3
 ```
 
 ---
