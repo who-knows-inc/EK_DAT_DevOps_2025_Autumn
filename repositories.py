@@ -9,4 +9,14 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 },
+{
+    "name": "DVK-DevOps",
+    "gitLinks": ["https://github.com/DVK-DEVOPS"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": ["Go", "Gorilla"],
+    "documentation": [],
+    "sla": "",
+},
 ]
