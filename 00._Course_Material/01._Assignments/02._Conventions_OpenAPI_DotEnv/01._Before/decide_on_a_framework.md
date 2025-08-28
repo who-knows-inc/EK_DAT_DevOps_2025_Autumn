@@ -85,10 +85,9 @@ You should revise the document later on by reflecting on the pros and cons of yo
 
 It's always good to make a data-driven decision. Besides the obvious biases, beware that these sources paint a picture that sometimes differs from the reality in Denmark. 
 
-https://survey.stackoverflow.co/2023/
+https://survey.stackoverflow.co/2025/
 
-https://github.blog/2023-11-08-the-state-of-open-source-and-ai/#the-most-popular-programming-languages
-
+https://github.blog/news-insights/octoverse/octoverse-2024/
 
 https://www.thoughtworks.com/radar
 
