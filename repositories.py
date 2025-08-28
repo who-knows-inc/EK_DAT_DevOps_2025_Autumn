@@ -8,5 +8,15 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-},
+  },
+  {
+    "name": "MixedLaptops",
+    "gitLinks": ["https://github.com/MixedLaptops/oggole"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+  }
 ]
