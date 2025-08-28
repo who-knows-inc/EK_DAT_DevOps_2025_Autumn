@@ -18,5 +18,16 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
+  },
+    {
+    "name": "CodeLab-DevOps",
+    "gitLinks": ["https://github.com/CodeLab-DevOps", "https://github.com/CodeLab-DevOps/Frontend", "https://github.com/CodeLab-DevOps/Backend"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
   }
+  
 ]
