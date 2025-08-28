@@ -9,4 +9,14 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 },
+  {
+    "name": "Martin's_Angels",
+    "gitLinks": ["https://github.com/orgs/Martin-s-angels/repositories"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
 ]
