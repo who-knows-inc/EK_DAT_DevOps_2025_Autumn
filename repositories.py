@@ -31,7 +31,7 @@ GROUP_REPOS = [
 },
 {
     "name": "DVK-DevOps",
-    "gitLinks": ["https://github.com/DVK-DEVOPS"],
+    "gitLinks": ["https://github.com/DVK-DEVOPS/DVK-Project-Repo"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
