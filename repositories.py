@@ -40,7 +40,7 @@ GROUP_REPOS = [
     "sla": "",
 },
   {
-    "name": "Martins' Engles",
+    "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
     "backend": "",
     "frontend": "",
