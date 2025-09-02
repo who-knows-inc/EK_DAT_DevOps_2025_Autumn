@@ -1,7 +1,7 @@
 GROUP_REPOS = [
   {
     "name": "Devops-valgfag",
-    "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnowsInc"],
+    "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnows"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
@@ -36,6 +36,16 @@ GROUP_REPOS = [
     "frontend": "",
     "monitoring": "",
     "stack": ["Go", "Gorilla"],
+    "documentation": [],
+    "sla": "",
+},
+  {
+    "name": "Martin-s-angels",
+    "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
     "documentation": [],
     "sla": "",
 },
