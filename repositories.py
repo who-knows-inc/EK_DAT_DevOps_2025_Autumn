@@ -31,7 +31,7 @@ GROUP_REPOS = [
   },
   {
     "name": "5%_uptime_gang",
-    "gitLinks": ["https://github.com/5-uptime-gang/10---uptime-gang.git"],
+    "gitLinks": ["https://github.com/5-uptime-gang/whoknows_variations"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
