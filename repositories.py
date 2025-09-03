@@ -1,15 +1,5 @@
 GROUP_REPOS = [
   {
-    "name": "devkopa",
-    "gitLinks": ["https://github.com/devkopa/pythondevops"],
-    "backend": "",
-    "frontend": "",
-    "monitoring": "",
-    "stack": [],
-    "documentation": [],
-    "sla": "",
-  },
-  {
     "name": "Devops-valgfag",
     "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnows"],
     "backend": "",
@@ -38,7 +28,7 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-},
+  },
   {
     "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
@@ -48,5 +38,15 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-},
+  },
+  {
+    "name": "devkopa",
+    "gitLinks": ["https://github.com/devkopa/pythondevops"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+  }
 ]
