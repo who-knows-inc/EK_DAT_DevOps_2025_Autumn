@@ -49,4 +49,14 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 },
+  {
+    "name": "devkopa",
+    "gitLinks": ["https://github.com/devkopa/pythondevops"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+  }
 ]
