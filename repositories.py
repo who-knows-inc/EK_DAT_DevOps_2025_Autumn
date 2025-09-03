@@ -39,16 +39,6 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 },
-{
-    "name": "DVK-DevOps",
-    "gitLinks": [""],
-    "backend": "",
-    "frontend": "",
-    "monitoring": "",
-    "stack": ["Go", "Gorilla"],
-    "documentation": [],
-    "sla": "",
-},
   {
     "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
