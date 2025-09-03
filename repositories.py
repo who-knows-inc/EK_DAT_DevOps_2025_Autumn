@@ -31,7 +31,7 @@ GROUP_REPOS = [
 },
 {
     "name": "DVK-DevOps",
-    "gitLinks": [""],
+    "gitLinks": [],
     "backend": "",
     "frontend": "",
     "monitoring": "",
@@ -42,6 +42,16 @@ GROUP_REPOS = [
   {
     "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
+    {
+    "name": "CodeLab-DevOps",
+    "gitLinks": ["https://github.com/CodeLab-DevOps/Backend", "https://github.com/CodeLab-DevOps/Frontend"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
