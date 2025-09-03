@@ -1,5 +1,15 @@
 GROUP_REPOS = [
   {
+    "name": "devkopa",
+    "gitLinks": ["https://github.com/devkopa/pythondevops"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+  },
+  {
     "name": "Devops-valgfag",
     "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnows"],
     "backend": "",
