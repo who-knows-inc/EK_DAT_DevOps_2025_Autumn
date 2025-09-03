@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="989pt" height="366pt" viewBox="0.00 0.00 989.05 365.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 361.6)">
+<title>FlaskDependencies</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-361.6 985.05,-361.6 985.05,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_database</title>
+<polygon fill="none" stroke="orange" points="401.05,-8 401.05,-156.8 711.05,-156.8 711.05,-8 401.05,-8"/>
+<text text-anchor="middle" x="556.05" y="-140.2" font-family="Times,serif" font-size="14.00">Database Layer</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_routes</title>
+<polygon fill="none" stroke="lightcyan" points="20.05,-164.8 20.05,-241.6 448.05,-241.6 448.05,-164.8 20.05,-164.8"/>
+<text text-anchor="middle" x="234.05" y="-225" font-family="Times,serif" font-size="14.00">Web Pages</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_api</title>
+<polygon fill="none" stroke="pink" points="577.05,-164.8 577.05,-241.6 973.05,-241.6 973.05,-164.8 577.05,-164.8"/>
+<text text-anchor="middle" x="775.05" y="-225" font-family="Times,serif" font-size="14.00">API Endpoints</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_security</title>
+<polygon fill="none" stroke="gold" points="796.05,-8 796.05,-156.8 930.05,-156.8 930.05,-8 796.05,-8"/>
+<text text-anchor="middle" x="863.05" y="-140.2" font-family="Times,serif" font-size="14.00">Security</text>
+</g>
+<!-- Main -->
+<g id="node1" class="node">
+<title>Main</title>
+<polygon fill="lightblue" stroke="black" points="204.05,-357.6 150.05,-357.6 150.05,-321.6 204.05,-321.6 204.05,-357.6"/>
+<text text-anchor="middle" x="177.05" y="-335.4" font-family="Times,serif" font-size="14.00">Main</text>
+</g>
+<!-- FlaskApp -->
+<g id="node2" class="node">
+<title>FlaskApp</title>
+<polygon fill="lightgreen" stroke="black" points="430.03,-285.6 356.08,-285.6 356.08,-249.6 430.03,-249.6 430.03,-285.6"/>
+<text text-anchor="middle" x="393.05" y="-263.4" font-family="Times,serif" font-size="14.00">Flask App</text>
+</g>
+<!-- Main&#45;&gt;FlaskApp -->
+<g id="edge1" class="edge">
+<title>Main-&gt;FlaskApp</title>
+<path fill="none" stroke="black" d="M204.41,-329.73C239.71,-318.3 301.71,-298.2 344.96,-284.19"/>
+<polygon fill="black" stroke="black" points="345.92,-287.55 354.36,-281.14 343.76,-280.89 345.92,-287.55"/>
+</g>
+<!-- ConnectDB -->
+<g id="node5" class="node">
+<title>ConnectDB</title>
+<polygon fill="orange" stroke="black" points="498.98,-124 409.13,-124 409.13,-88 498.98,-88 498.98,-124"/>
+<text text-anchor="middle" x="454.05" y="-101.8" font-family="Times,serif" font-size="14.00">connect_db()</text>
+</g>
+<!-- Main&#45;&gt;ConnectDB -->
+<g id="edge2" class="edge">
+<title>Main-&gt;ConnectDB</title>
+<path fill="none" stroke="black" d="M149.6,-331.26C111.68,-319.47 44.71,-292.31 16.05,-241.6 -0.74,-211.88 -7.57,-189.44 16.05,-164.8 23.4,-157.13 196.51,-158.08 207.05,-156.8 273.13,-148.81 347.91,-132.72 397.71,-120.99"/>
+<polygon fill="black" stroke="black" points="398.49,-124.4 407.4,-118.68 396.87,-117.59 398.49,-124.4"/>
+</g>
+<!-- BeforeRequest -->
+<g id="node3" class="node">
+<title>BeforeRequest</title>
+<polygon fill="yellow" stroke="black" points="566.31,-208.8 457.8,-208.8 457.8,-172.8 566.31,-172.8 566.31,-208.8"/>
+<text text-anchor="middle" x="512.05" y="-186.6" font-family="Times,serif" font-size="14.00">before_request()</text>
+</g>
+<!-- FlaskApp&#45;&gt;BeforeRequest -->
+<g id="edge3" class="edge">
+<title>FlaskApp-&gt;BeforeRequest</title>
+<path fill="none" stroke="black" d="M430.39,-252.74C437.76,-249.46 445.31,-245.71 452.05,-241.6 463.65,-234.54 475.37,-225.37 485.34,-216.82"/>
+<polygon fill="black" stroke="black" points="487.63,-219.47 492.81,-210.23 482.99,-214.22 487.63,-219.47"/>
+</g>
+<!-- AfterRequest -->
+<g id="node4" class="node">
+<title>AfterRequest</title>
+<polygon fill="yellow" stroke="black" points="198.25,-124 99.86,-124 99.86,-88 198.25,-88 198.25,-124"/>
+<text text-anchor="middle" x="149.05" y="-101.8" font-family="Times,serif" font-size="14.00">after_request()</text>
+</g>
+<!-- FlaskApp&#45;&gt;AfterRequest -->
+<g id="edge4" class="edge">
+<title>FlaskApp-&gt;AfterRequest</title>
+<path fill="none" stroke="black" d="M355.87,-266.95C265.29,-267.4 38.94,-266.06 16.05,-241.6 -7.27,-216.68 -2.66,-193.34 16.05,-164.8 32.25,-140.1 61.54,-125.9 88.52,-117.76"/>
+<polygon fill="black" stroke="black" points="89.33,-121.17 98.04,-115.13 87.47,-114.42 89.33,-121.17"/>
+</g>
+<!-- SearchPage -->
+<g id="node10" class="node">
+<title>SearchPage</title>
+<polygon fill="lightcyan" stroke="black" points="229.81,-208.8 128.29,-208.8 128.29,-172.8 229.81,-172.8 229.81,-208.8"/>
+<text text-anchor="middle" x="179.05" y="-186.6" font-family="Times,serif" font-size="14.00">Search Page (/)</text>
+</g>
+<!-- FlaskApp&#45;&gt;SearchPage -->
+<g id="edge5" class="edge">
+<title>FlaskApp-&gt;SearchPage</title>
+<path fill="none" stroke="black" d="M355.69,-266C323.48,-264.23 276.41,-258.59 239.05,-241.6 225.9,-235.62 213.29,-225.97 203.05,-216.75"/>
+<polygon fill="black" stroke="black" points="205.48,-214.23 195.81,-209.9 200.67,-219.31 205.48,-214.23"/>
+</g>
+<!-- LoginPage -->
+<g id="node11" class="node">
+<title>LoginPage</title>
+<polygon fill="lightcyan" stroke="black" points="328.13,-208.8 247.98,-208.8 247.98,-172.8 328.13,-172.8 328.13,-208.8"/>
+<text text-anchor="middle" x="288.05" y="-186.6" font-family="Times,serif" font-size="14.00">Login Page</text>
+</g>
+<!-- FlaskApp&#45;&gt;LoginPage -->
+<g id="edge6" class="edge">
+<title>FlaskApp-&gt;LoginPage</title>
+<path fill="none" stroke="black" d="M355.84,-252.35C349.34,-249.21 342.83,-245.61 337.05,-241.6 327.29,-234.82 317.82,-225.94 309.86,-217.56"/>
+<polygon fill="black" stroke="black" points="312.49,-215.25 303.17,-210.23 307.32,-219.97 312.49,-215.25"/>
+</g>
+<!-- RegisterPage -->
+<g id="node12" class="node">
+<title>RegisterPage</title>
+<polygon fill="lightcyan" stroke="black" points="439.74,-208.8 346.37,-208.8 346.37,-172.8 439.74,-172.8 439.74,-208.8"/>
+<text text-anchor="middle" x="393.05" y="-186.6" font-family="Times,serif" font-size="14.00">Register Page</text>
+</g>
+<!-- FlaskApp&#45;&gt;RegisterPage -->
+<g id="edge7" class="edge">
+<title>FlaskApp-&gt;RegisterPage</title>
+<path fill="none" stroke="black" d="M393.05,-249.25C393.05,-240.66 393.05,-230.07 393.05,-220.32"/>
+<polygon fill="black" stroke="black" points="396.55,-220.57 393.05,-210.57 389.55,-220.57 396.55,-220.57"/>
+</g>
+<!-- AboutPage -->
+<g id="node13" class="node">
+<title>AboutPage</title>
+<polygon fill="lightcyan" stroke="black" points="109.91,-208.8 28.2,-208.8 28.2,-172.8 109.91,-172.8 109.91,-208.8"/>
+<text text-anchor="middle" x="69.05" y="-186.6" font-family="Times,serif" font-size="14.00">About Page</text>
+</g>
+<!-- FlaskApp&#45;&gt;AboutPage -->
+<g id="edge8" class="edge">
+<title>FlaskApp-&gt;AboutPage</title>
+<path fill="none" stroke="black" d="M355.75,-266.3C290.84,-265.27 160.11,-260.79 119.05,-241.6 107.45,-236.18 96.98,-226.87 88.66,-217.76"/>
+<polygon fill="black" stroke="black" points="91.5,-215.71 82.35,-210.38 86.18,-220.25 91.5,-215.71"/>
+</g>
+<!-- APISearch -->
+<g id="node14" class="node">
+<title>APISearch</title>
+<polygon fill="pink" stroke="black" points="765.13,-208.8 684.98,-208.8 684.98,-172.8 765.13,-172.8 765.13,-208.8"/>
+<text text-anchor="middle" x="725.05" y="-186.6" font-family="Times,serif" font-size="14.00">API Search</text>
+</g>
+<!-- FlaskApp&#45;&gt;APISearch -->
+<g id="edge9" class="edge">
+<title>FlaskApp-&gt;APISearch</title>
+<path fill="none" stroke="black" d="M430.28,-266.47C496.89,-265.72 633.45,-261.7 676.05,-241.6 687.41,-236.24 697.59,-227.08 705.69,-218.06"/>
+<polygon fill="black" stroke="black" points="708.37,-220.31 712.1,-210.4 703,-215.83 708.37,-220.31"/>
+</g>
+<!-- APILogin -->
+<g id="node15" class="node">
+<title>APILogin</title>
+<polygon fill="pink" stroke="black" points="858.8,-208.8 783.3,-208.8 783.3,-172.8 858.8,-172.8 858.8,-208.8"/>
+<text text-anchor="middle" x="821.05" y="-186.6" font-family="Times,serif" font-size="14.00">API Login</text>
+</g>
+<!-- FlaskApp&#45;&gt;APILogin -->
+<g id="edge10" class="edge">
+<title>FlaskApp-&gt;APILogin</title>
+<path fill="none" stroke="black" d="M430.37,-265.7C520.24,-263.31 743.5,-255.98 774.05,-241.6 785.35,-236.28 795.28,-226.95 803.08,-217.79"/>
+<polygon fill="black" stroke="black" points="805.75,-220.05 809.19,-210.03 800.25,-215.72 805.75,-220.05"/>
+</g>
+<!-- APIRegister -->
+<g id="node16" class="node">
+<title>APIRegister</title>
+<polygon fill="pink" stroke="black" points="965.41,-208.8 876.7,-208.8 876.7,-172.8 965.41,-172.8 965.41,-208.8"/>
+<text text-anchor="middle" x="921.05" y="-186.6" font-family="Times,serif" font-size="14.00">API Register</text>
+</g>
+<!-- FlaskApp&#45;&gt;APIRegister -->
+<g id="edge11" class="edge">
+<title>FlaskApp-&gt;APIRegister</title>
+<path fill="none" stroke="black" d="M430.44,-266.11C535.49,-264.51 828.27,-258.58 868.05,-241.6 880.5,-236.29 891.82,-226.69 900.77,-217.33"/>
+<polygon fill="black" stroke="black" points="903.21,-219.85 907.27,-210.06 898,-215.18 903.21,-219.85"/>
+</g>
+<!-- APILogout -->
+<g id="node17" class="node">
+<title>APILogout</title>
+<polygon fill="pink" stroke="black" points="667.3,-208.8 584.8,-208.8 584.8,-172.8 667.3,-172.8 667.3,-208.8"/>
+<text text-anchor="middle" x="626.05" y="-186.6" font-family="Times,serif" font-size="14.00">API Logout</text>
+</g>
+<!-- FlaskApp&#45;&gt;APILogout -->
+<g id="edge12" class="edge">
+<title>FlaskApp-&gt;APILogout</title>
+<path fill="none" stroke="black" d="M430.23,-264.24C475.87,-260.88 550.27,-253.72 575.05,-241.6 586.68,-235.91 597.32,-226.56 605.83,-217.49"/>
+<polygon fill="black" stroke="black" points="608.33,-219.96 612.31,-210.14 603.07,-215.33 608.33,-219.96"/>
+</g>
+<!-- BeforeRequest&#45;&gt;ConnectDB -->
+<g id="edge13" class="edge">
+<title>BeforeRequest-&gt;ConnectDB</title>
+<path fill="none" stroke="black" d="M500.04,-172.64C492.16,-161.4 481.69,-146.46 472.74,-133.68"/>
+<polygon fill="black" stroke="black" points="475.73,-131.84 467.12,-125.66 469.99,-135.86 475.73,-131.84"/>
+</g>
+<!-- QueryDB -->
+<g id="node7" class="node">
+<title>QueryDB</title>
+<polygon fill="orange" stroke="black" points="595.15,-124 516.95,-124 516.95,-88 595.15,-88 595.15,-124"/>
+<text text-anchor="middle" x="556.05" y="-101.8" font-family="Times,serif" font-size="14.00">query_db()</text>
+</g>
+<!-- BeforeRequest&#45;&gt;QueryDB -->
+<g id="edge14" class="edge">
+<title>BeforeRequest-&gt;QueryDB</title>
+<path fill="none" stroke="black" d="M521.17,-172.64C527.03,-161.62 534.77,-147.04 541.48,-134.43"/>
+<polygon fill="black" stroke="black" points="544.48,-136.23 546.09,-125.76 538.3,-132.94 544.48,-136.23"/>
+</g>
+<!-- Database -->
+<g id="node9" class="node">
+<title>Database</title>
+<path fill="red" stroke="black" d="M656.68,-48.73C656.68,-50.53 631.75,-52 601.05,-52 570.36,-52 545.43,-50.53 545.43,-48.73 545.43,-48.73 545.43,-19.27 545.43,-19.27 545.43,-17.47 570.36,-16 601.05,-16 631.75,-16 656.68,-17.47 656.68,-19.27 656.68,-19.27 656.68,-48.73 656.68,-48.73"/>
+<path fill="none" stroke="black" d="M656.68,-48.73C656.68,-46.92 631.75,-45.45 601.05,-45.45 570.36,-45.45 545.43,-46.92 545.43,-48.73"/>
+<text text-anchor="middle" x="601.05" y="-29.8" font-family="Times,serif" font-size="14.00">SQLite Database</text>
+</g>
+<!-- AfterRequest&#45;&gt;Database -->
+<g id="edge15" class="edge">
+<title>AfterRequest-&gt;Database</title>
+<path fill="none" stroke="black" d="M198.55,-100.14C270.35,-92.67 407.76,-76.8 534.11,-52.25"/>
+<polygon fill="black" stroke="black" points="534.51,-55.74 543.65,-50.37 533.16,-48.87 534.51,-55.74"/>
+</g>
+<!-- CheckDB -->
+<g id="node6" class="node">
+<title>CheckDB</title>
+<polygon fill="orange" stroke="black" points="526.98,-52 409.13,-52 409.13,-16 526.98,-16 526.98,-52"/>
+<text text-anchor="middle" x="468.05" y="-29.8" font-family="Times,serif" font-size="14.00">check_db_exists()</text>
+</g>
+<!-- ConnectDB&#45;&gt;CheckDB -->
+<g id="edge16" class="edge">
+<title>ConnectDB-&gt;CheckDB</title>
+<path fill="none" stroke="black" d="M457.51,-87.7C458.99,-80.32 460.75,-71.52 462.4,-63.25"/>
+<polygon fill="black" stroke="black" points="465.81,-64.08 464.34,-53.59 458.94,-62.71 465.81,-64.08"/>
+</g>
+<!-- ConnectDB&#45;&gt;Database -->
+<g id="edge17" class="edge">
+<title>ConnectDB-&gt;Database</title>
+<path fill="none" stroke="black" d="M490.77,-87.52C510.19,-78.27 534.23,-66.82 554.91,-56.97"/>
+<polygon fill="black" stroke="black" points="556.17,-60.25 563.69,-52.79 553.16,-53.93 556.17,-60.25"/>
+</g>
+<!-- QueryDB&#45;&gt;Database -->
+<g id="edge18" class="edge">
+<title>QueryDB-&gt;Database</title>
+<path fill="none" stroke="black" d="M567.18,-87.7C572.24,-79.81 578.36,-70.3 583.99,-61.55"/>
+<polygon fill="black" stroke="black" points="586.78,-63.68 589.24,-53.38 580.89,-59.9 586.78,-63.68"/>
+</g>
+<!-- GetUserID -->
+<g id="node8" class="node">
+<title>GetUserID</title>
+<polygon fill="orange" stroke="black" points="703.37,-124 612.73,-124 612.73,-88 703.37,-88 703.37,-124"/>
+<text text-anchor="middle" x="658.05" y="-101.8" font-family="Times,serif" font-size="14.00">get_user_id()</text>
+</g>
+<!-- GetUserID&#45;&gt;Database -->
+<g id="edge19" class="edge">
+<title>GetUserID-&gt;Database</title>
+<path fill="none" stroke="black" d="M643.96,-87.7C637.41,-79.64 629.47,-69.89 622.21,-60.98"/>
+<polygon fill="black" stroke="black" points="624.97,-58.82 615.94,-53.28 619.54,-63.24 624.97,-58.82"/>
+</g>
+<!-- SearchPage&#45;&gt;QueryDB -->
+<g id="edge20" class="edge">
+<title>SearchPage-&gt;QueryDB</title>
+<path fill="none" stroke="black" d="M214.85,-172.4C222.66,-169.31 231,-166.54 239.05,-164.8 268.28,-158.5 480.71,-168.9 508.05,-156.8 519.7,-151.64 529.94,-142.21 537.94,-132.92"/>
+<polygon fill="black" stroke="black" points="540.44,-135.4 543.94,-125.4 534.97,-131.03 540.44,-135.4"/>
+</g>
+<!-- APISearch&#45;&gt;QueryDB -->
+<g id="edge21" class="edge">
+<title>APISearch-&gt;QueryDB</title>
+<path fill="none" stroke="black" d="M695.18,-172.43C689.02,-169.46 682.46,-166.72 676.05,-164.8 645.21,-155.56 632.94,-171.01 604.05,-156.8 592.9,-151.31 582.92,-142.12 574.99,-133.12"/>
+<polygon fill="black" stroke="black" points="577.78,-131 568.73,-125.5 572.37,-135.45 577.78,-131"/>
+</g>
+<!-- APILogin&#45;&gt;QueryDB -->
+<g id="edge22" class="edge">
+<title>APILogin-&gt;QueryDB</title>
+<path fill="none" stroke="black" d="M793.06,-172.35C787,-169.31 780.47,-166.56 774.05,-164.8 737.58,-154.79 638.5,-172.41 604.05,-156.8 592.57,-151.6 582.43,-142.28 574.47,-133.11"/>
+<polygon fill="black" stroke="black" points="577.2,-130.92 568.2,-125.32 571.74,-135.3 577.2,-130.92"/>
+</g>
+<!-- VerifyPassword -->
+<g id="node19" class="node">
+<title>VerifyPassword</title>
+<polygon fill="gold" stroke="black" points="922.37,-124 803.74,-124 803.74,-88 922.37,-88 922.37,-124"/>
+<text text-anchor="middle" x="863.05" y="-101.8" font-family="Times,serif" font-size="14.00">verify_password()</text>
+</g>
+<!-- APILogin&#45;&gt;VerifyPassword -->
+<g id="edge23" class="edge">
+<title>APILogin-&gt;VerifyPassword</title>
+<path fill="none" stroke="black" d="M829.76,-172.64C835.35,-161.62 842.74,-147.04 849.14,-134.43"/>
+<polygon fill="black" stroke="black" points="852.13,-136.27 853.53,-125.77 845.89,-133.1 852.13,-136.27"/>
+</g>
+<!-- APIRegister&#45;&gt;GetUserID -->
+<g id="edge24" class="edge">
+<title>APIRegister-&gt;GetUserID</title>
+<path fill="none" stroke="black" d="M888.96,-172.39C882.22,-169.39 875.04,-166.64 868.05,-164.8 822.37,-152.74 807.7,-168.99 762.05,-156.8 739.53,-150.79 715.98,-139.94 697,-129.9"/>
+<polygon fill="black" stroke="black" points="698.75,-126.87 688.29,-125.17 695.4,-133.02 698.75,-126.87"/>
+</g>
+<!-- HashPassword -->
+<g id="node18" class="node">
+<title>HashPassword</title>
+<polygon fill="gold" stroke="black" points="916.49,-52 805.62,-52 805.62,-16 916.49,-16 916.49,-52"/>
+<text text-anchor="middle" x="861.05" y="-29.8" font-family="Times,serif" font-size="14.00">hash_password()</text>
+</g>
+<!-- APIRegister&#45;&gt;HashPassword -->
+<g id="edge25" class="edge">
+<title>APIRegister-&gt;HashPassword</title>
+<path fill="none" stroke="black" d="M888.34,-172.32C881.77,-169.4 874.81,-166.71 868.05,-164.8 852.35,-160.37 805.95,-168.95 795.05,-156.8 774.64,-134.03 781.83,-115.57 795.05,-88 800.5,-76.64 809.71,-66.94 819.54,-59.07"/>
+<polygon fill="black" stroke="black" points="821.46,-62 827.43,-53.25 817.31,-56.36 821.46,-62"/>
+</g>
+<!-- VerifyPassword&#45;&gt;HashPassword -->
+<g id="edge26" class="edge">
+<title>VerifyPassword-&gt;HashPassword</title>
+<path fill="none" stroke="black" d="M862.56,-87.7C862.35,-80.41 862.1,-71.73 861.87,-63.54"/>
+<polygon fill="black" stroke="black" points="865.37,-63.51 861.59,-53.62 858.37,-63.71 865.37,-63.51"/>
+</g>
+</g>
+</svg>
