@@ -51,7 +51,7 @@ Paste the following template in the `GROUP_REPOS` list variable:
 
 - `name`: The name of your group.
 
-- `gitLinks`: The link(s) to your repositories.
+- `gitLinks`: The link(s) to your repositories. These will contain the code. They cannot be forks of my repositories.
 
 
 3. Validate the syntax: 
