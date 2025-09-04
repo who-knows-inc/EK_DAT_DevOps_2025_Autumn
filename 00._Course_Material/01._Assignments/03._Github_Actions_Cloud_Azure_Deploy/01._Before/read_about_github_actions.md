@@ -1,6 +1,6 @@
 # Read about GitHub Actions
 
-**Type**: Invdividual
+**Type**: Individual
 
 **Motivation**: Learn the correct terminology surrounding GitHub Actions.
 
