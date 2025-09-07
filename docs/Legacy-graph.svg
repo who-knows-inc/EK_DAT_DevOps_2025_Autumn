@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="546pt" height="98pt" viewBox="0.00 0.00 545.92 98.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
+<title>LegacySystem</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-94 541.92,-94 541.92,4 -4,4"/>
+<!-- Flask -->
+<g id="node1" class="node">
+<title>Flask</title>
+<polygon fill="none" stroke="black" points="120.97,-63 0,-63 0,-27 120.97,-27 120.97,-63"/>
+<text text-anchor="middle" x="60.49" y="-40.8" font-family="Times,serif" font-size="14.00">Flask App (server)</text>
+</g>
+<!-- Routes -->
+<g id="node2" class="node">
+<title>Routes</title>
+<polygon fill="none" stroke="black" points="285.75,-90 156.97,-90 156.97,-54 285.75,-54 285.75,-90"/>
+<text text-anchor="middle" x="221.36" y="-67.8" font-family="Times,serif" font-size="14.00">Routes / Controllers</text>
+</g>
+<!-- Flask&#45;&gt;Routes -->
+<g id="edge1" class="edge">
+<title>Flask-&gt;Routes</title>
+<path fill="none" stroke="black" d="M121.1,-55.13C129.09,-56.49 137.36,-57.9 145.57,-59.29"/>
+<polygon fill="black" stroke="black" points="144.76,-62.7 155.2,-60.93 145.93,-55.8 144.76,-62.7"/>
+</g>
+<!-- Templates -->
+<g id="node3" class="node">
+<title>Templates</title>
+<polygon fill="none" stroke="black" points="284.76,-36 157.96,-36 157.96,0 284.76,0 284.76,-36"/>
+<text text-anchor="middle" x="221.36" y="-13.8" font-family="Times,serif" font-size="14.00">Templates (HTML)</text>
+</g>
+<!-- Flask&#45;&gt;Templates -->
+<g id="edge2" class="edge">
+<title>Flask-&gt;Templates</title>
+<path fill="none" stroke="black" d="M121.1,-34.87C129.36,-33.46 137.93,-32.01 146.42,-30.57"/>
+<polygon fill="black" stroke="black" points="146.73,-34.06 156,-28.94 145.56,-27.16 146.73,-34.06"/>
+</g>
+<!-- Database -->
+<g id="node4" class="node">
+<title>Database</title>
+<polygon fill="none" stroke="black" points="537.92,-90 458.53,-90 458.53,-54 537.92,-54 537.92,-90"/>
+<text text-anchor="middle" x="498.23" y="-67.8" font-family="Times,serif" font-size="14.00">SQLite DB</text>
+</g>
+<!-- Routes&#45;&gt;Database -->
+<g id="edge3" class="edge">
+<title>Routes-&gt;Database</title>
+<path fill="none" stroke="black" d="M286.24,-74.95C298.04,-75.39 310.26,-75.77 321.75,-76 366.53,-76.9 377.75,-77.2 422.53,-76 430.38,-75.79 438.7,-75.46 446.81,-75.07"/>
+<polygon fill="black" stroke="black" points="446.77,-78.57 456.58,-74.57 446.41,-71.58 446.77,-78.57"/>
+</g>
+<!-- Models -->
+<g id="node5" class="node">
+<title>Models</title>
+<polygon fill="none" stroke="black" points="422.53,-67 321.75,-67 321.75,-31 422.53,-31 422.53,-67"/>
+<text text-anchor="middle" x="372.14" y="-44.8" font-family="Times,serif" font-size="14.00">Models / ORM</text>
+</g>
+<!-- Routes&#45;&gt;Models -->
+<g id="edge4" class="edge">
+<title>Routes-&gt;Models</title>
+<path fill="none" stroke="black" d="M285.89,-62.18C293.94,-60.93 302.16,-59.66 310.18,-58.42"/>
+<polygon fill="black" stroke="black" points="310.47,-61.92 319.82,-56.93 309.4,-55 310.47,-61.92"/>
+</g>
+<!-- Models&#45;&gt;Database -->
+<g id="edge5" class="edge">
+<title>Models-&gt;Database</title>
+<path fill="none" stroke="black" d="M422.89,-58.22C430.78,-59.68 438.94,-61.2 446.83,-62.66"/>
+<polygon fill="black" stroke="black" points="446.19,-66.1 456.66,-64.48 447.47,-59.22 446.19,-66.1"/>
+</g>
+</g>
+</svg>
