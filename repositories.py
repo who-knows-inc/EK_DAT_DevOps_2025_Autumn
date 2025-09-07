@@ -28,8 +28,8 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-},
-{
+  },
+  {
     "name": "DVK-DevOps",
     "gitLinks": ["https://github.com/DVK-DEVOPS/DVK-Project"],
     "backend": "",
@@ -38,7 +38,7 @@ GROUP_REPOS = [
     "stack": ["Go", "Gorilla"],
     "documentation": [],
     "sla": "",
-},
+  },
   {
     "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
@@ -48,7 +48,7 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-},
+  },
   {
     "name": "devkopa",
     "gitLinks": ["https://github.com/devkopa/pythondevops"],
@@ -61,12 +61,29 @@ GROUP_REPOS = [
   },
   {
     "name": "CodeLab-DevOps",
-    "gitLinks": ["https://github.com/CodeLab-DevOps/Frontend", "https://github.com/CodeLab-DevOps/Backend", "https://github.com/CodeLab-DevOps/Starter-WhoKnows-"],
+    "gitLinks": [
+      "https://github.com/CodeLab-DevOps/Frontend",
+      "https://github.com/CodeLab-DevOps/Backend",
+      "https://github.com/CodeLab-DevOps/Starter-WhoKnows-"
+    ],
     "backend": "",
     "frontend": "",
     "monitoring": "",
     "stack": [],
     "documentation": [],
+    "sla": "",
+  },
+  {
+    "name": "Gutterne",
+    "gitLinks": ["https://github.com/Sebkh123/Devops-2025"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": ["FastAPI", "SQLite", "Postgres"],
+    "documentation": [
+      "docs/adr/0001-framework-choice.md",
+      "docs/adr/0002-conventions.md"
+    ],
     "sla": "",
   },
 ]
