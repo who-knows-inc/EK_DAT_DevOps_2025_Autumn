@@ -51,7 +51,7 @@ GROUP_REPOS = [
 },
   {
     "name": "devkopa",
-    "gitLinks": ["https://github.com/devkopa/pythondevops"],
+    "gitLinks": ["https://github.com/devkopa/WhoKnows-legacy", "https://github.com/devkopa/WhoKnows-next-gen"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
