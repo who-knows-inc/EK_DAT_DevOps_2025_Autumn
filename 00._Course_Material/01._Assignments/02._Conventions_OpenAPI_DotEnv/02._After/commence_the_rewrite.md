@@ -50,6 +50,8 @@ You are not expected to do this but consider how you would've since this is a co
 
 You must adhere to the provided [OpenAPI specification](./openapi.json) exactly.
 
+You don't have to implement the `/weather` or `/api/weather` routes yet.
+
 As you can see the `/about` page is optional. 
 
 
