@@ -188,7 +188,7 @@ Understands the difference between pull-based and push-based deployment.
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
 | 4
-| Sep. 11th
+| Sep. 18th
 a|
 
 // link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/01._introduction.md[Introduction]
