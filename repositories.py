@@ -69,4 +69,14 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
   },
+    {
+    "name": "Git den gas!",
+    "gitLinks": ["https://github.com/Sebkh123/Devops-2025"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
 ]
