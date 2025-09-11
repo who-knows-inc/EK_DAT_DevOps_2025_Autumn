@@ -95,7 +95,7 @@ link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Be
 
 link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/git_advanced.md[Git advanced]
 
-link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/go_and_ruby_sqlite_setup.md[Go and Ruby setup]
+link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/go_and_ruby_sqlite_setup.md[Go and Ruby SQLite setup]
 
 link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/decide_on_a_framework.md[Decide on a framework]
 
