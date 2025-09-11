@@ -28,6 +28,8 @@ Figure out which regions you are allowed to deploy to.
 
 ### Prerequisites
 
+If you are on **Windows** then run the following scripts on `Windows Subsystem for Linux`, `Git Bash` or the equivalent.
+
 1. Install `AZ CLI`:
 
 https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget
@@ -93,6 +95,8 @@ az group delete --name "policy-test-rg" --yes --no-wait --output none 2>/dev/nul
 ## Deploy through scripts
 
 ## Prerequisites
+
+If you are on **Windows** then run the following scripts on `Windows Subsystem for Linux`, `Git Bash` or the equivalent.
 
 If you have problems deploying through the portal here is a method to deploy through scripts using `AZ CLI`.
 
