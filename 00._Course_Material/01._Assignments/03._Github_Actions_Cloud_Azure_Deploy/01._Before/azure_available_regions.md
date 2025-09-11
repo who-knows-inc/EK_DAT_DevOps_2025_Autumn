@@ -166,6 +166,12 @@ If you need to destroy the server and the resource here is a script. Make sure t
 
 1. Create a file called `vm_destroy.sh`.
 
+If you are on *nix you will have to make the script executable:
+
+```bash
+$ chmod +x vm_destroy.sh
+```
+
 2. In the file paste the following:
 
 ```bash
