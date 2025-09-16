@@ -154,7 +154,7 @@ echo "VM IP Address:"
 az vm show --resource-group $RG_NAME --name $VM_NAME --show-details --query publicIps --output tsv
 ```
 
-3. Change the variables section and use names that makes sense for your purpose. Remember to use the region that you have permission to use. Make sure that the `SSH_KEY_PATH` is valid on yoru computer.
+3. Change the variables section and use names that makes sense for your purpose. Remember to use the region that you have permission to use. Make sure that the `SSH_KEY_PATH` is valid on your computer.
 
 4. Run the script:
 
