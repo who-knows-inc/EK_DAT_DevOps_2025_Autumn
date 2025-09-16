@@ -12,7 +12,7 @@ Start converting the legacy code to your own stack.
 
 You should have agreed on a programming language and server framework by now.
 
-You should now focus entirely on implementing the backend server. Check the [Course Milestones](../../../00._Meta_Course_Material/about_the_course.md#course-overall-structure). Use SQLite since databases aren't covered until later. Same goes for Docker and Docker-compose.
+You should now focus entirely on implementing the backend server. Check the [Course Milestones](../../../00._Meta_Course_Material/about_the_course.md). Use SQLite since databases aren't covered until later. Same goes for Docker and Docker-compose.
 
 Agree with your group how to organize the code in folders and the overall structure of the new project. 
 
