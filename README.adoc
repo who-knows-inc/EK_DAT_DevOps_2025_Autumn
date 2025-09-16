@@ -10,6 +10,8 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the ex
 
 == Mandatories
 
+link:00._Course_Material/01._Assignments/00._Mandatories/mandatory_I.md[Mandatory I]
+
 
 == Semester Plan
 
