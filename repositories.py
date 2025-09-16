@@ -75,7 +75,7 @@ GROUP_REPOS = [
     "backend": "",
     "frontend": "",
     "monitoring": "",
-    "stack": [],
+    "stack": ["Go", "Gorilla"],
     "documentation": [],
     "sla": "",
 },
