@@ -1,11 +1,11 @@
 GROUP_REPOS = [
   {
-    "name": "Devops-valgfag",
+    "name": "WeKnow",
     "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnows"],
-    "backend": "",
-    "frontend": "",
+    "backend": "http://51.107.222.64:8080/",
+    "frontend": "http://51.107.222.64:8080/",
     "monitoring": "",
-    "stack": [],
+    "stack": [Ruby, Sinatra, sqLite3, bcrypt, puma],
     "documentation": [],
     "sla": "",
   },
