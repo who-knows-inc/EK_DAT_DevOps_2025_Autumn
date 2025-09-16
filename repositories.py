@@ -70,7 +70,7 @@ GROUP_REPOS = [
     "sla": "",
   },
     {
-    "name": "Git den gas!",
+    "name": "GitDenGas123456!",
     "gitLinks": ["https://github.com/Sebkh123/Devops-2025"],
     "backend": "",
     "frontend": "",
