@@ -5,7 +5,7 @@ GROUP_REPOS = [
     "backend": "http://51.107.222.64:8080/",
     "frontend": "http://51.107.222.64:8080/",
     "monitoring": "",
-    "stack": [Ruby, Sinatra, sqLite3, bcrypt, puma],
+    "stack": ["Ruby", "Sinatra", "sqLite3", "bcrypt", "puma"],
     "documentation": [],
     "sla": "",
   },
