@@ -32,8 +32,8 @@ GROUP_REPOS = [
 {
     "name": "DVK-DevOps",
     "gitLinks": ["https://github.com/DVK-DEVOPS/DVK-Project"],
-    "backend": "",
-    "frontend": "",
+    "backend": "http://51.142.201.55:8080/",
+    "frontend": "http://51.142.201.55:8080/",
     "monitoring": "",
     "stack": ["Go", "Gorilla"],
     "documentation": [],
