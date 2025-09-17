@@ -1,0 +1,54 @@
+name: PR Template Check
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  validate-template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate PR body contains required sections and selected type
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = (context.payload.pull_request?.body || "").trim();
+            // Required sections
+            const requiredHeaders = [
+              "## PR Description",
+              "## Changes Made",
+              "## Reason for Change"
+            ];
+            const missing = requiredHeaders.filter(h => !new RegExp(`^\\s*${h}\\s*$`, "m").test(body));
+            if (missing.length) {
+              core.setFailed(
+                "The PR description is missing the following section(s): " +
+                missing.join(", ") +
+                "\n\nTip: Copy the full template from .github/pull_request_template.md"
+              );
+              return;
+            }
+            // Extract the 'Type' section
+            const typeSectionMatch = body.match(/## Type[\\s\\S]*?(?=\\n##\\s|$)/);
+            if (!typeSectionMatch) {
+              core.setFailed("The '## Type' section is missing.");
+              return;
+            }
+            const typeSection = typeSectionMatch[0];
+            // Known types
+            const knownTypes = ["Bug", "Text Update", "Feature", "Task"];
+            const checkedRegexes = knownTypes.map(t =>
+              new RegExp(`- \$begin:math:display$\\\\s*[xX]\\\\s*\\$end:math:display$ \\s*${t}\\b`)
+            );
+            const anyChecked = checkedRegexes.some(rx => rx.test(typeSection));
+            if (!anyChecked) {
+              core.setFailed(
+                "In the '## Type' section, at least one of the following must be checked: " +
+                knownTypes.join(", ") +
+                "\nExample: '- [x] Bug'"
+              );
+            }
