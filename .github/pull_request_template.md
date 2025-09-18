@@ -9,7 +9,7 @@
 
 ## Type
 Select at least one (multiple allowed):
-- [ ] Bug
+- [ ] Update to `repositories.py`
 - [ ] Text Update
 - [ ] Feature
-- [ ] Task
+- [ ] Bug
