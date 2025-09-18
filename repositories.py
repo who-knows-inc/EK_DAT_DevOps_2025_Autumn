@@ -45,7 +45,7 @@ GROUP_REPOS = [
     "backend": "http://68.221.202.43:8080/",
     "frontend": "http://68.221.202.43:8080/",
     "monitoring": "",
-    "stack": [ruby, sinatra],
+    "stack": ["Ruby", "Sinatra"],
     "documentation": [],
     "sla": "",
 },
