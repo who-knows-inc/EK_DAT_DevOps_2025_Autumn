@@ -87,7 +87,19 @@ https://azure.microsoft.com/en-us/free/students/
 
 #### SSH keys
 
-Many of you generated a SSH key pair last semester. If you have lost it then generate a new one. Generate a RSA key pair. Specifically, RSA, will be required for Terraform later in the course.
+Many of you generated a SSH key pair last semester. If you have lost it then generate a new one. Generate a RSA key pair. RSA, specifically, will be required for Terraform later in the course.
+
+#### `az` (Azure CLI)
+
+Install Azures CLI `az`. Look here to find how to install it for your OS:
+
+https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+
+OR a perhaps a better command to install for Windows here:
+
+https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
+
+Successful criteria: Can run `az --version` in the terminal that you use. So if you install it for Powershell but always use Git Bash for instance, then you might consider a different installation method.
 
 ---
 
@@ -121,19 +133,7 @@ Install Docker: https://www.docker.com/products/docker-desktop/.
 
 ---
 
-## Can do before week 10
-
-#### `az` (Azure CLI)
-
-Install Azures CLI `az`. Look here to find how to install it for your OS:
-
-https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
-
-OR a perhaps a better command to install for Windows here:
-
-https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
-
-Successful criteria: Can run `az --version` in the terminal that you use. So if you install it for Powershell but always use Git Bash for instance, then you might consider a different installation method.
+## Must do before week 10
 
 #### Terraform
 
