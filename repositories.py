@@ -69,4 +69,12 @@ GROUP_REPOS = [
     "documentation": ["Elixir", "Phoneix", "Sqlite"],
     "sla": "",
   },
+  "name": "GitDenGas123456",
+    "gitLinks": ["https://github.com/GitDenGas123456/DevOps-Valgfag"],
+    "backend": "",
+    "frontend": "https://whoknows-rewrite-g0axgwcaacc8g4d7.swedencentral-01.azurewebsites.net/",
+    "monitoring": "",
+    "stack": ["Go", "Gorilla"],
+    "documentation": [],
+    "sla": "",
 ]
