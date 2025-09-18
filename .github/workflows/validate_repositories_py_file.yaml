@@ -1,7 +1,7 @@
 name: Validate the repositories.py file
 
 on:
-  pull_request_target:
+  pull_request:
     paths:
       - repositories.py
 
@@ -13,15 +13,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
-
-    - name: Set up Git user
-      run: |
-        git config --global user.email "github-actions@github.com"
-        git config --global user.name "GitHub Actions"
-
-    - name: Merge PR into target branch
-      run: git merge origin/${{ github.event.pull_request.base.ref }}
+        # Fetches the PR even when it comes from a fork
+        ref: ${{ github.event.pull_request.head.sha }}
   
     - name: Set up Python
       uses: actions/setup-python@v4
