@@ -42,10 +42,10 @@ GROUP_REPOS = [
   {
     "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
-    "backend": "",
-    "frontend": "",
+    "backend": "http://68.221.202.43:8080/",
+    "frontend": "http://68.221.202.43:8080/",
     "monitoring": "",
-    "stack": [],
+    "stack": ["Ruby", "Sinatra"],
     "documentation": [],
     "sla": "",
 },
