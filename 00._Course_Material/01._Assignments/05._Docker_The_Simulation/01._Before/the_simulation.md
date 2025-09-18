@@ -63,5 +63,3 @@ Remember not to push the IP address to your repositories.
 Accessing it on port `8000` might give you a view like this:
 
 <img src="./assets_the_simulation/plot_server_landing_page.png" alt="plot server landing page">
-
-You can savely ignore the `/logs/date/last`. It is a heartbeat function used to monitor if both the simulator and the plot server are up and running.
