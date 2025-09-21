@@ -55,7 +55,7 @@ GROUP_REPOS = [
     "backend": "",
     "frontend": "",
     "monitoring": "",
-    "stack": [],
+    "stack": ["Ruby", "Rails", "PostgreSQL", "bcrypt", "puma"],
     "documentation": [],
     "sla": "",
   },
