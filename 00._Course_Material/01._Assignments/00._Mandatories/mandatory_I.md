@@ -10,7 +10,7 @@
 
 ## Requirements
 
-These hand-ins serve as an opportunity for you to reflect. Focus on creating material that brings value to you and your group.
+These hand-ins serve as an opportunity for you to reflect. **Focus on creating material that brings value to you and your group** instead of trying to guess what you think that I would like to see.
 
 You are free to choose any (reasonable) format for the documents.
 
