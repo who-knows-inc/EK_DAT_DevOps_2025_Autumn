@@ -255,45 +255,98 @@ Is familiar with different branching strategies.
 | 5
 | Sep. 25th
 a|
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/01._introduction.md[Introduction]
-Introduction
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/01._introduction.md[Introduction]
+// Introduction
 
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/02._build_tools.md[Build tools]
-Build tools
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/02._build_tools.md[Build tools]
+// Build tools
 
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/03._packaging.md[Packaging]
-Packaging
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/03._packaging.md[Packaging]
+// Packaging
 
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/04._virtualization_containerization.md[Virtualization / Containerization]
-Virtualization / Containerization
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/04._virtualization_containerization.md[Virtualization / Containerization]
+// Virtualization / Containerization
 
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/05._docker.md[Docker]
-Docker
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/05._docker.md[Docker]
+// Docker
 
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/06._dockerfile.md[Dockerfile]
-Dockerfile
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/06._dockerfile.md[Dockerfile]
+// Dockerfile
 
-// link:00._Course_Material/02._Slides/05._Docker_The_Simulation/assets_build_tools/python_build_tools.md[Python build tools]
-Python build tools
+link:00._Course_Material/02._Slides/05._Docker_The_Simulation/assets_build_tools/python_build_tools.md[Python build tools]
+// Python build tools
 
 a|
 link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/01._Before/refresh_docker_knowledge.md[Refresh Docker knowledge]
 
 link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/01._Before/the_simulation.md[The Simulation]
 a|
-// link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/02._After/setup_postman_monitoring.md[Setup Postman Monitoring]
+link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/02._After/setup_postman_monitoring.md[Setup Postman Monitoring]
 
-// link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/02._After/docker_from_scratch.md[Docker from scratch]
+link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/02._After/docker_from_scratch.md[Docker from scratch]
 
-// link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/02._After/begin_dockerization.md[Begin Dockerization]
+link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/02._After/begin_dockerization.md[Begin Dockerization]
 a|
-// Understands different levels of build tools from OS to language-specific ones.
+Understands different levels of build tools from OS to language-specific ones.
 
-// Understands the difference between packaging and virtualization/containerization.
+Understands the difference between packaging and virtualization/containerization.
 
-// Understands how Docker differs from its predecessors and modern alternatives.
+Understands how Docker differs from its predecessors and modern alternatives.
 
-// Can understand simple Dockerfiles for different languages.
+Can understand simple Dockerfiles for different languages.
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+| 6
+| Oct. 2nd
+a|
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/01._introduction.md[Introduction]
+Introduction
+
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/02._docker-compose.md[Docker-compose]
+Docker-compose
+
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/03._hot_reload_in_docker.md[Hot reload in Docker]
+Hot reload in Docker
+
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/04._debug_docker-compose.md[Debug docker-compose]
+Debug docker-compose
+
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/05._agile.md[Agile]
+Agile
+
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/06._devops.md[DevOps]
+DevOps
+
+// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/07._continuous_delivery.md[Continuous Delivery]
+Continuous Delivery
+a|
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/01._Before/100+_docker_concepts_you_need_to_know.md[100+ docker concepts you need to know]
+
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/01._Before/generate_cr_pat.md[Generate CR_PAT]
+
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/01._Before/read_devops_literature_I.md[Read DevOps Literature I]
+
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/01._Before/refresh_docker-compose.md[Refresh docker-compose]
+a|
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/02._After/whoknows_variations_continuous_delivery.md[whoknows_variations Continuous Delivery]
+
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/02._After/workflow_strategies.md[Workflow strategies]
+
+link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/02._After/docker_compose_continuous_delivery.md[Docker Compose + Continuous Delivery]
+
+a|
+// Can argue for the benefit of using Docker-compose over Dockerfiles.
+
+// Understands various basic docker-compose.yml files.
+
+// Can argue for the pros and cons of hot reload in Docker.
+
+// Understands Continuous Delivery as we define it in this course and has a general idea of how it works.
+
+// Can explain what agile is, why it was created.
+
+// Understands the history of DevOps and different ways to understand it.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
