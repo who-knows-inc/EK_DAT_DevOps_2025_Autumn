@@ -273,8 +273,6 @@ link:00._Course_Material/02._Slides/05._Docker_The_Simulation/05._docker.md[Dock
 link:00._Course_Material/02._Slides/05._Docker_The_Simulation/06._dockerfile.md[Dockerfile]
 // Dockerfile
 
-link:00._Course_Material/02._Slides/05._Docker_The_Simulation/assets_build_tools/python_build_tools.md[Python build tools]
-// Python build tools
 
 a|
 link:00._Course_Material/01._Assignments/05._Docker_The_Simulation/01._Before/refresh_docker_knowledge.md[Refresh Docker knowledge]
