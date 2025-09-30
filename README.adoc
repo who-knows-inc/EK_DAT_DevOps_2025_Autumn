@@ -298,26 +298,26 @@ Can understand simple Dockerfiles for different languages.
 | 6
 | Oct. 2nd
 a|
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/01._introduction.md[Introduction]
-Introduction
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/01._introduction.md[Introduction]
+// Introduction
 
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/02._docker-compose.md[Docker-compose]
-Docker-compose
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/02._docker-compose.md[Docker-compose]
+// Docker-compose
 
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/03._hot_reload_in_docker.md[Hot reload in Docker]
-Hot reload in Docker
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/03._hot_reload_in_docker.md[Hot reload in Docker]
+// Hot reload in Docker
 
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/04._debug_docker-compose.md[Debug docker-compose]
-Debug docker-compose
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/04._debug_docker-compose.md[Debug docker-compose]
+// Debug docker-compose
 
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/05._agile.md[Agile]
-Agile
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/05._agile.md[Agile]
+// Agile
 
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/06._devops.md[DevOps]
-DevOps
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/06._devops.md[DevOps]
+// DevOps
 
-// link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/07._continuous_delivery.md[Continuous Delivery]
-Continuous Delivery
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/07._continuous_delivery.md[Continuous Delivery]
+// Continuous Delivery
 a|
 link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/01._Before/100+_docker_concepts_you_need_to_know.md[100+ docker concepts you need to know]
 
@@ -334,19 +334,45 @@ link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_
 link:00._Course_Material/01._Assignments/06._Docker-compose_Continuous_Delivery_DevOps/02._After/docker_compose_continuous_delivery.md[Docker Compose + Continuous Delivery]
 
 a|
-// Can argue for the benefit of using Docker-compose over Dockerfiles.
+Can argue for the benefit of using Docker-compose over Dockerfiles.
 
-// Understands various basic docker-compose.yml files.
+Understands various basic docker-compose.yml files.
 
-// Can argue for the pros and cons of hot reload in Docker.
+Can argue for the pros and cons of hot reload in Docker.
 
-// Understands Continuous Delivery as we define it in this course and has a general idea of how it works.
+Understands Continuous Delivery as we define it in this course and has a general idea of how it works.
 
-// Can explain what agile is, why it was created.
+Can explain what agile is, why it was created.
 
-// Understands the history of DevOps and different ways to understand it.
+Understands the history of DevOps and different ways to understand it.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
+
+| 7
+| Oct. 9th
+a|
+Guest Lecture by Jan from link:https://www.eficode.com/[Eficode]​
+a|
+link:00._Course_Material/01._Assignments/07._Guest_Lecture/01._Before/read_devops_literature_II.md[Read DevOps Literature II]
+
+link:00._Course_Material/01._Assignments/07._Guest_Lecture/01._Before/detecting_agile_bs.md[Detecting Agile BS]
+a|
+link:00._Course_Material/01._Assignments/07._Guest_Lecture/02._After/create_an_issue_template.md[Create an Issue Template]
+
+link:00._Course_Material/01._Assignments/07._Guest_Lecture/02._After/how_are_you_devops.md[How are you DevOps?]
+a|
+Knows the historical angel of DevOps and how it has evolved.
+
+Understands the problems that DevOps aims to solve in modern organizations.
+
+Understands the concept of psychological safety and why it matters. 
+
+Understands how crucial it is for business competitiveness to bring down pipeline execution time. Can implement simultanously running pipelines to cut time whenever it is possible.
+
+Has read all the course literature and can talk about the content. 
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 |===
