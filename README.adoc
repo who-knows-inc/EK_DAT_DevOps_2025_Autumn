@@ -304,8 +304,8 @@ link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOp
 link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/02._docker-compose.md[Docker-compose]
 // Docker-compose
 
-link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/03._hot_reload_in_docker.md[Hot reload in Docker]
-// Hot reload in Docker
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/03._hot_reload_in_docker.md[Live reload in Docker]
+// Live reload in Docker
 
 link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/04._debug_docker_compose.md[Debug docker compose]
 // Debug docker-compose
@@ -338,7 +338,7 @@ Can argue for the benefit of using Docker-compose over Dockerfiles.
 
 Understands various basic docker-compose.yml files.
 
-Can argue for the pros and cons of hot reload in Docker.
+Understands the need to setup a volume in order to achieve live reload in Docker and knowing that this requires a separate development build.
 
 Understands Continuous Delivery as we define it in this course and has a general idea of how it works.
 
