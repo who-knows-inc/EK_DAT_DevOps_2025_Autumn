@@ -307,7 +307,7 @@ link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOp
 link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/03._hot_reload_in_docker.md[Hot reload in Docker]
 // Hot reload in Docker
 
-link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/04._debug_docker-compose.md[Debug docker-compose]
+link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/04._debug_docker_compose.md[Debug docker compose]
 // Debug docker-compose
 
 link:00._Course_Material/02._Slides/06._Docker-compose_Continuous_Delivery_DevOps/05._agile.md[Agile]
