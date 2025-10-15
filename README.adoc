@@ -161,16 +161,12 @@ link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/0
 
 link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/01._Before/github_pr_template.md[GitHub PR template]
 
-link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/01._Before/azure_cost_managment.md[Azure cost management]
-
-link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/01._Before/azure_available_regions.md[Azure Available Regions]
-
 a|
+link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/02._After/ek_azure.md[EK Azure Resources]
+
 link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/02._After/keep_rewriting.md[Keep rewriting]
 
 link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/02._After/deploy.md[Deploy]
-
-link:00._Course_Material/01._Assignments/03._Github_Actions_Cloud_Azure_Deploy/02._After/azure_oddities.md[Azure Oddities]
 
 a|
 Understands the terminology surrounding Github Actions such as workflows, runners, jobs, steps, and actions.
