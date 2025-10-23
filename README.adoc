@@ -410,7 +410,7 @@ link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/had
 a|
 Has a clear view of different definitions of DevOps and is able to conjure their personal definition.
 
-Understands the concepts of the principles of *Flow*, *Feedback*, and *Continual Learning and Experimentation*.
+Understands the concepts of the principles of *Flow*, *Feedback*, and *Continuous Learning and Experimentation*.
 
 Can argue for the importance of carrying out a postmortem and knows how to approach conducting one.
 
