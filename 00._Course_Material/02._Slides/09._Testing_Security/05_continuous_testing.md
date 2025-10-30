@@ -286,6 +286,14 @@ export default defineConfig({
 });
 ```
 
+Now the following in the test code will append the path to the baseURL:
+
+```javascript
+await page.goto('/');
+```
+
+But providing a full URL (ip address or domain) will not.
+
 ---
 
 # Recording tests
