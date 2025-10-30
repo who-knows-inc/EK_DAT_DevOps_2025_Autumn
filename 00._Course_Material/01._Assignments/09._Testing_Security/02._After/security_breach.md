@@ -10,7 +10,9 @@ A hacker has managed to breach the security of your application!
 
 ## Description
 
-A hacker has managed to breach the security of your application and gained access to your database. To prove it he has hand-picked some users and sent them to you.  
+A hacker has managed to breach the security of your application and gained access to your database. To prove it he has hand-picked some users and sent them to you.
+
+Do no worry. They were only able to gain access to the data and do not have access to your systems.
 
 Implement a feature that informs your users and forces them to change their password. 
 

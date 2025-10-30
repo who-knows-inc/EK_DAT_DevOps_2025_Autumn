@@ -69,7 +69,7 @@ The Developer themselves print out and verify that it works to the best of their
 
 **UI testing**: 
 
-Sending it to a sales or QA team to click around, type things and verify that everything still works. Sometimes this was done during their 
+Sending it to a sales or QA team to click around, type things and verify that everything still works. Sometimes this was done during their down time.
 
 **Exploratory testing**: 
 
@@ -137,19 +137,11 @@ Worst case scenario (happens too often):
 
 Positive / Negative tests
 
+[Happy path](https://en.wikipedia.org/wiki/Happy_path) / sad paths
+
 Boundary tests: Upper bound, lower bound, edge cases
 
 Special characters: especially in Denmark where we have letters like æ, ø, å.
-
----
-
-# Happy paths vs sad paths
-
-https://en.wikipedia.org/wiki/Happy_path
-
-Remember to test for both.
-
-Security testing, for example, is often about testing the sad paths.
 
 ---
 
