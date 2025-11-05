@@ -2,8 +2,8 @@ GROUP_REPOS = [
   {
     "name": "WeKnow",
     "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnows"],
-    "backend": "http://51.107.222.64:8081/",
-    "frontend": "http://51.107.222.64:8081/",
+    "backend": "https://we-know.dk",
+    "frontend": "https://we-know.dk",
     "monitoring": "",
     "stack": ["Ruby", "Sinatra", "sqLite3", "bcrypt", "puma", "Docker compose","nginx"],
     "documentation": [],
