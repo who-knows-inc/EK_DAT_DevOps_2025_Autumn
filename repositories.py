@@ -22,8 +22,8 @@ GROUP_REPOS = [
   {
     "name": "5%_uptime_gang",
     "gitLinks": ["https://github.com/5-uptime-gang/whoknows_variations"],
-    "backend": "http://68.221.201.252:8080/",
-    "frontend": "http://68.221.201.252:8080/",
+    "backend": "http://femprocentoppetid.dk/",
+    "frontend": "http://femprocentoppetid.dk/",
     "monitoring": "",
     "stack": ["GO", "gin"],
     "documentation": [],
