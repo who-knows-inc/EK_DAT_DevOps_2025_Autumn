@@ -522,23 +522,23 @@ Follows good web scraping / web crawling practices such as legality and politene
 | 11
 | Nov. 13th
 a|
-link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/01._introduction.md[Introduction]
-// Introduction
+// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/01._introduction.md[Introduction]
+Introduction
 
-link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/02._logging.md[Logging]
-// Logging
+// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/02._logging.md[Logging]
+Logging
 
-link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/03._monitoring.md[Monitoring]
-// Monitoring
+// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/03._monitoring.md[Monitoring]
+Monitoring
 
 // link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/04._searching.md[Searching]
 Searching
 
-link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/05._crawling.md[Crawling]
-// Crawling
+// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/05._crawling.md[Crawling]
+Crawling
 
-link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/06._serverless_functions.md[Serverless Functions]
-// Serverless Functions
+// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/06._serverless_functions.md[Serverless Functions]
+Serverless Functions
 
 a|
 link:00._Course_Material/01._Assignments/11._Searching_Logging_Monitoring_Serverless/01._Before/kpi.md[KPI]
@@ -569,7 +569,6 @@ Can argue why a monitoring setup should not run on the same server as the applic
 
 
 
-// ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
