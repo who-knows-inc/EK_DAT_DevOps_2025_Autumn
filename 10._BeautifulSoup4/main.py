@@ -1,7 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
-html = requests.get("https://en.wikipedia.org/wiki/List_of_Monty_Python_projects").text
+headers = {
+    'User-Agent': 'MontyPythonScraper/1.0 (Educational purposes)'
+}
+html = requests.get("https://en.wikipedia.org/wiki/List_of_Monty_Python_projects", headers=headers).text
 parsed_html = BeautifulSoup(html, "lxml")
 
 tags = parsed_html.find("div", { "class": "mw-parser-output" } )
@@ -10,7 +13,7 @@ projects = {}
 
 current_category = None
 
-for tag in tags:
+for tag in tags.children:
     if tag.name == "div" and "mw-heading" in tag.get("class", []):
         current_category = tag.text.replace("[edit]", "")
         projects[current_category] = []

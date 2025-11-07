@@ -4,12 +4,16 @@ import re
 
 BASE_URL = "https://en.wikipedia.org"
 
+HEADERS = {
+    'User-Agent': 'WikipediaCrawler/1.0 (Educational purposes)'
+}
+
 visited_pages = set()
 to_visit_queue = []
 
 
 def get_parsed_wiki_page(endpoint):
-    html_page = requests.get(BASE_URL + endpoint).text
+    html_page = requests.get(BASE_URL + endpoint, headers=HEADERS).text
     return BeautifulSoup(html_page, "lxml")
 
 # Rules for internal Wikipedia links:
@@ -47,5 +51,3 @@ while True:
         visited_pages.add(link_to_visit)
     
     to_visit_queue += new_temp_visit_queue
-
-print(visited_pages)
