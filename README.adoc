@@ -522,23 +522,23 @@ Follows good web scraping / web crawling practices such as legality and politene
 | 11
 | Nov. 13th
 a|
-// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/01._introduction.md[Introduction]
-Introduction
+link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/01._introduction.md[Introduction]
+// Introduction
 
-// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/02._logging.md[Logging]
-Logging
+link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/02._logging.md[Logging]
+// Logging
 
-// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/03._monitoring.md[Monitoring]
-Monitoring
+link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/03._monitoring.md[Monitoring]
+// Monitoring
 
-// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/04._searching.md[Searching]
-Searching
+link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/04._searching.md[Searching]
+// Searching
 
-// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/05._crawling.md[Crawling]
-Crawling
+link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/05._crawling.md[Crawling]
+// Crawling
 
-// link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/06._serverless_functions.md[Serverless Functions]
-Serverless Functions
+link:00._Course_Material/02._Slides/11._Searching_Logging_Monitoring_Serverless/06._serverless_functions.md[Serverless Functions]
+// Serverless Functions
 
 a|
 link:00._Course_Material/01._Assignments/11._Searching_Logging_Monitoring_Serverless/01._Before/kpi.md[KPI]
@@ -568,6 +568,49 @@ Is familiar with a monitoring setup. Knows the difference between push and pull-
 Can argue why a monitoring setup should not run on the same server as the application.
 
 
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+| 12
+| Nov. 20th
+a|
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/01._introduction.md[Introduction]
+Introduction
+
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/02._why_infrastructure_as_code.md[Why Infrastructure as Code]
+Why Infrastructure as Code
+
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/03._iac_configuration_management_tools.md[IaC / Configuration Management Tools]
+IaC / Configuration Management Tools
+
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/04._imperative_vs_declarative.md[Imperative vs Declarative]
+Imperative vs Declarative
+
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/05._terraform_hands-on.md[Terraform - Hands-on]
+Terraform - Get Started
+
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/06._terraform_limitations_problems.md[Terraform: Limitations / Problems]
+Terraform: Limitations / Problems
+
+// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/07._terraform_github_provider.md[Terraform - GitHub Provider]
+Terraform - GitHub Provider
+a|
+link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/01._Before/improve_accessibility.md[Improve Accessibility]
+
+a|
+// link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/kea_learn_terraform.md[KEA Learn Terraform]
+
+// link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/your_infrastructure_as_code.md[Your Infrastructure as Code]
+
+// link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/software_maintenance.md[Software Maintenance]
+a|
+// Understands the problems that Infrastructure as Code solves.
+
+// Knows about how we define Infrastructure as Code and knows how they differ from Configuration Management.
+
+// Can run basic commands in Terraform to provision infrastructure.
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
