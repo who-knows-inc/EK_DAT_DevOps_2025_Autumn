@@ -52,8 +52,8 @@ GROUP_REPOS = [
   {
     "name": "devkopa",
     "gitLinks": ["https://github.com/devkopa/WhoKnows-legacy", "https://github.com/devkopa/WhoKnows-next-gen"],
-    "backend": "http://51.107.217.98:3000/",
-    "frontend": "http://51.107.217.98:3000/",
+    "backend": "https://devkopa.dk/",
+    "frontend": "https://devkopa.dk/",
     "monitoring": "",
     "stack": ["Ruby", "Rails", "React", "PostgreSQL", "bcrypt", "puma"],
     "documentation": [],
