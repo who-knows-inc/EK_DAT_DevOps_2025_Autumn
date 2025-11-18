@@ -12,10 +12,10 @@ GROUP_REPOS = [
   {
     "name": "MixedLaptops",
     "gitLinks": ["https://github.com/MixedLaptops/oggole"],
-    "backend": "http://20.254.43.177/",
-    "frontend": "http://20.254.43.177/",
+    "backend": "https://oggole.dk/",
+    "frontend": "https://oggole.dk/",
     "monitoring": "",
-    "stack": ["GO", "SQlite"],
+    "stack": ["Go", "PostgreSQL", "Nginx", "Docker"],
     "documentation": [],
     "sla": "",
   },
