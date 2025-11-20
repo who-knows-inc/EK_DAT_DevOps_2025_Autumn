@@ -72,9 +72,22 @@ resource "azurerm_linux_virtual_machine" "terraform_class" {
     version   = "latest"
   }
 
-  disable_password_authentication = false
-  admin_password                  = var.ssh_password
+  disable_password_authentication = true
+  admin_ssh_key {
+    username   = "adminuser"
+    public_key = file("~/.ssh/id_rsa.pub")
+  }
 
+  provisioner "remote-exec" {
+    inline = split("\n", templatefile("${path.module}/inline_commands.sh", {}))
+    connection {
+      type        = "ssh"
+      user        = "adminuser"
+      private_key = file("~/.ssh/id_rsa")
+      host        = self.public_ip_address
+      timeout     = "2m"
+    }
+  }
 }
 
 resource "azurerm_network_security_group" "terraform_class_nsg" {
