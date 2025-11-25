@@ -12,6 +12,8 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the ex
 
 link:00._Course_Material/01._Assignments/00._Mandatories/mandatory_I.md[Mandatory I]
 
+link:00._Course_Material/01._Assignments/00._Mandatories/mandatory_II.md[Mandatory II]
+
 
 == Semester Plan
 
@@ -574,44 +576,134 @@ Can argue why a monitoring setup should not run on the same server as the applic
 | 12
 | Nov. 20th
 a|
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/01._introduction.md[Introduction]
-Introduction
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/01._introduction.md[Introduction]
+// Introduction
 
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/02._why_infrastructure_as_code.md[Why Infrastructure as Code]
-Why Infrastructure as Code
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/02._why_infrastructure_as_code.md[Why Infrastructure as Code]
+// Why Infrastructure as Code
 
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/03._iac_configuration_management_tools.md[IaC / Configuration Management Tools]
-IaC / Configuration Management Tools
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/03._iac_configuration_management_tools.md[IaC / Configuration Management Tools]
+// IaC / Configuration Management Tools
 
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/04._imperative_vs_declarative.md[Imperative vs Declarative]
-Imperative vs Declarative
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/04._imperative_vs_declarative.md[Imperative vs Declarative]
+// Imperative vs Declarative
 
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/05._terraform_hands-on.md[Terraform - Hands-on]
-Terraform - Get Started
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/05._terraform_hands-on.md[Terraform - Hands-on]
+// Terraform - Get Started
 
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/06._terraform_limitations_problems.md[Terraform: Limitations / Problems]
-Terraform: Limitations / Problems
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/06._terraform_limitations_problems.md[Terraform: Limitations / Problems]
+// Terraform: Limitations / Problems
 
-// link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/07._terraform_github_provider.md[Terraform - GitHub Provider]
-Terraform - GitHub Provider
+link:00._Course_Material/02._Slides/12._Infrastructure_as_Code/07._terraform_github_provider.md[Terraform - GitHub Provider]
+// Terraform - GitHub Provider
 a|
 link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/01._Before/improve_accessibility.md[Improve Accessibility]
 
 a|
-// link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/kea_learn_terraform.md[KEA Learn Terraform]
+link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/kea_learn_terraform.md[KEA Learn Terraform]
 
-// link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/your_infrastructure_as_code.md[Your Infrastructure as Code]
+link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/your_infrastructure_as_code.md[Your Infrastructure as Code]
 
-// link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/software_maintenance.md[Software Maintenance]
+link:00._Course_Material/01._Assignments/12._Infrastructure_as_Code/02._After/software_maintenance.md[Software Maintenance]
 a|
-// Understands the problems that Infrastructure as Code solves.
+Understands the problems that Infrastructure as Code solves.
 
-// Knows about how we define Infrastructure as Code and knows how they differ from Configuration Management.
+Knows about how we define Infrastructure as Code and knows how they differ from Configuration Management.
 
-// Can run basic commands in Terraform to provision infrastructure.
+Can run basic commands in Terraform to provision infrastructure.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
+| 13
+| Nov. 27th
+a|
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/01._introduction.md[Introduction]
+Introduction
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/02._deploying_infrastructure_configuration_managment.md[Deploying Infrastructure / Configuration Managment]
+Deploying Infrastructure / Configuration Managment
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/03._deployment_strategies.md[Deployment Strategies]
+Deployment Strategies
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/04._orchestration.md[Orchestration]
+Orchestration
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/05._kubernetes.md[Kubernetes]
+Kubernetes
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/06._kubernetes_hands-on.md[Kubernetes - Hands-on]
+Kubernetes - Hands-on
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/07._resilience.md[Resilience]
+Resilience
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/08._maintenance.md[Maintenance]
+Maintenance
+
+// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/09._course_conclusion.md[Course Conclusion]
+Course Conclusion
+
+a|
+link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/01._Before/create_a_dot_github_repository_for_your_organisation.md[Create .github for your Organisation]
+
+link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/01._Before/docker_swarm_tutorial.md[Docker Swarm Tutorial]
+
+a|
+// link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/service_level_agreement.md[Service Level Agreement]
+
+// link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/take_down_your_system.md[Take Down Your System]
+
+// link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/consider_a_deployment_strategy.md[Consider a deployment strategy]
+
+**The simulation is taken down**
+a|
+// Knows different deployment strategies and how they work.
+
+// Understands the concept of orchestration and can argue for the importance of it.
+
+// Knows the very basic concepts of Kubernetes. 
+
+// Understands the importance of resilience in systems and the idea of applying chaos engineering to improve it.
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+| 14
+| Dec. 4th
+a|
+Wrap up the project.
+Write the report. 
+a|
+No lecture.
+a|
+No lecture.
+a|
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+| 15
+| Dec. 11th
+a|
+Finish the report.
+a|
+No lecture.
+a|
+No lecture.
+a|
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
+
+| 16
+| Dec. 18th
+a|
+Prepare the exam presentation.
+a|
+No lecture.
+a|
+No lecture.
+a|
 
 
 
