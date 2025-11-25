@@ -14,7 +14,7 @@ GROUP_REPOS = [
     "gitLinks": ["https://github.com/MixedLaptops/oggole"],
     "backend": "https://oggole.dk/",
     "frontend": "https://oggole.dk/",
-    "monitoring": "",
+    "monitoring": "http://51.120.12.155:3000",
     "stack": ["Go", "PostgreSQL", "Nginx", "Docker"],
     "documentation": [],
     "sla": "",
