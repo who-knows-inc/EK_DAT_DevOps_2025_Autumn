@@ -4,7 +4,7 @@ GROUP_REPOS = [
     "gitLinks": ["https://github.com/DevOps-Valgfag/WhoKnows"],
     "backend": "https://we-know.dk",
     "frontend": "https://we-know.dk",
-    "monitoring": "",
+    "monitoring": "http://157.180.73.234:3000/",
     "stack": ["Ruby", "Sinatra", "sqLite3", "bcrypt", "puma", "Docker compose","nginx"],
     "documentation": [],
     "sla": "",
