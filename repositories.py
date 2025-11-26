@@ -44,7 +44,7 @@ GROUP_REPOS = [
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
     "backend": "http://68.221.202.43:8080/",
     "frontend": "http://68.221.202.43:8080/",
-    "monitoring": "http://68.221.202.43:3000",
+    "monitoring": "http://135.225.120.15:3000",
     "stack": ["Ruby", "Sinatra"],
     "documentation": [],
     "sla": "",
