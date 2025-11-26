@@ -74,7 +74,7 @@ GROUP_REPOS = [
     "gitLinks": ["https://github.com/GitDenGas123456/DevOps-Valgfag"],
     "backend": "http://4.235.104.246:8080/",
     "frontend": "http://4.235.104.246:8080/",
-    "monitoring": "",
+    "monitoring": "http://4.235.104.246:9090",
     "stack": ["Go", "Gorilla"],
     "documentation": [],
     "sla": "",  
