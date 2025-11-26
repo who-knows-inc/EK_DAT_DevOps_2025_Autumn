@@ -6,7 +6,11 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the 
 
 link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the exam]
 
+link:00._Course_Material/00._Meta_Course_Material/exam_project_requirements.md[Exam Project Requirements]
 
+link:00._Course_Material/00._Meta_Course_Material/exam_report_requirements.md[Exam Report Requirements]
+
+link:00._Course_Material/00._Meta_Course_Material/exam_presentation_requirements.md[Exam Presentation Requirements]
 
 == Mandatories
 
@@ -617,32 +621,32 @@ Can run basic commands in Terraform to provision infrastructure.
 | 13
 | Nov. 27th
 a|
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/01._introduction.md[Introduction]
-Introduction
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/01._introduction.md[Introduction]
+// Introduction
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/02._deploying_infrastructure_configuration_managment.md[Deploying Infrastructure / Configuration Managment]
-Deploying Infrastructure / Configuration Managment
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/02._deploying_infrastructure_configuration_managment.md[Deploying Infrastructure / Configuration Managment]
+// Deploying Infrastructure / Configuration Managment
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/03._deployment_strategies.md[Deployment Strategies]
-Deployment Strategies
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/03._deployment_strategies.md[Deployment Strategies]
+// Deployment Strategies
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/04._orchestration.md[Orchestration]
-Orchestration
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/04._orchestration.md[Orchestration]
+// Orchestration
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/05._kubernetes.md[Kubernetes]
-Kubernetes
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/05._kubernetes.md[Kubernetes]
+// Kubernetes
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/06._kubernetes_hands-on.md[Kubernetes - Hands-on]
-Kubernetes - Hands-on
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/06._kubernetes_hands-on.md[Kubernetes - Hands-on]
+// Kubernetes - Hands-on
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/07._resilience.md[Resilience]
-Resilience
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/07._resilience.md[Resilience]
+// Resilience
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/08._maintenance.md[Maintenance]
-Maintenance
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/08._maintenance.md[Maintenance]
+// Maintenance
 
-// link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/09._course_conclusion.md[Course Conclusion]
-Course Conclusion
+link:00._Course_Material/02._Slides/13._Deployment_Strategies_Orchestration_Maintenance/09._course_conclusion.md[Course Conclusion]
+// Course Conclusion
 
 a|
 link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/01._Before/create_a_dot_github_repository_for_your_organisation.md[Create .github for your Organisation]
@@ -650,21 +654,21 @@ link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration
 link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/01._Before/docker_swarm_tutorial.md[Docker Swarm Tutorial]
 
 a|
-// link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/service_level_agreement.md[Service Level Agreement]
+link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/service_level_agreement.md[Service Level Agreement]
 
-// link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/take_down_your_system.md[Take Down Your System]
+link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/take_down_your_system.md[Take Down Your System]
 
-// link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/consider_a_deployment_strategy.md[Consider a deployment strategy]
+link:00._Course_Material/01._Assignments/13._Deployment_Strategies_Orchestration_Maintenance/02._After/consider_a_deployment_strategy.md[Consider a deployment strategy]
 
 **The simulation is taken down**
 a|
-// Knows different deployment strategies and how they work.
+Knows different deployment strategies and how they work.
 
-// Understands the concept of orchestration and can argue for the importance of it.
+Understands the concept of orchestration and can argue for the importance of it.
 
-// Knows the very basic concepts of Kubernetes. 
+Knows the very basic concepts of Kubernetes. 
 
-// Understands the importance of resilience in systems and the idea of applying chaos engineering to improve it.
+Understands the importance of resilience in systems and the idea of applying chaos engineering to improve it.
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
