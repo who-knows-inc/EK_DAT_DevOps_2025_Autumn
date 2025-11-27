@@ -1,4 +1,4 @@
-# Exam report requirements
+# Exam Report Requirements
 
 **Motivation**: The exam report is written by the group and will be read by me and the censor. 
 
@@ -18,7 +18,7 @@ Rules per the study curriculum:
 
 - A page is defined as 2400 characters (including spaces).
 
-- Images are counted as much as the space that they take up. If you make the images too small to be read without digitally zooming in, then it will be considered as imcomprehensible.
+- The space requirement excludes images. If you make the images too small to be read without digitally zooming in, then it will be considered as imcomprehensible.
 
 Please add the necessary images and diagrams instead of writing 4 pages of text.
 
