@@ -41,3 +41,15 @@ Have the following ready:
 - The exam report
 - Relevant tabs open for the website, monitoring, CI/CD pipeline, documentation, etc.
 - The mandatories
+
+The individual examination is incredibly short (20 minutes including voting).
+
+Expect a lot of rapid-fire questions and try to provide short answers.
+
+I have a mental checklist of things I want to get answers to.
+
+Being stopped is not necessarily a bad sign. It could either mean that I want to steer you towards a specific answer or that you've already answered what I was looking for.
+
+Stopping you could also mean that you have answered what I wanted and I am ready to move on.
+
+Another piece af advice is to look at the slides because we build up our own unique definitions and terminology throughout the semester. Examples include `DevOps princples` and our definition of `CD/CD` according to the slides.
