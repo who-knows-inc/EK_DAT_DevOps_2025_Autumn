@@ -18,7 +18,9 @@ They will also point out potential problems. You do not have to fix everything. 
 
 They will also become part of your CI pipeline and you should try to keep the quality metrics high as you push new code. 
 
-Remember that from the lecture the learning goal should be to think critically about these tools. 
+Remember that from the lecture the learning goal should be to think critically about these tools.
+
+Below are some suggestions for the most popular software quality tools. 
 
 ---
 
@@ -66,7 +68,7 @@ https://www.coderabbit.ai/
 
 ## Requirement for Mandatory II
 
-After you have setup a these code quality tools and gone through the issues, your group should create a brief document that answers the following questions:
+After you have setup (a) code quality tool(s) and gone through the issues, your group should create a brief document that answers the following questions:
 
   - Do you agree with the findings?
 
