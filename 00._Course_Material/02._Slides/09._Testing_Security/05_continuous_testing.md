@@ -219,6 +219,8 @@ For now know that there are multiple tools for end-to-end testing such as:
 
 [Gatling](https://gatling.io/)
 
+[Locust](https://locust.io/)
+
 ---
 
 # A/B testing
