@@ -26,3 +26,6 @@ You could (additionally) consider SuperLinter:
 
 https://github.com/marketplace/actions/super-linter
 
+Or MegaLinter:
+
+https://github.com/oxsecurity/megalinter
