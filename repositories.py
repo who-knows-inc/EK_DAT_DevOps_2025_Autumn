@@ -55,7 +55,7 @@ GROUP_REPOS = [
     "backend": "https://devkopa.dk/",
     "frontend": "https://devkopa.dk/",
     "monitoring": "https://devkopa.dk/grafana/",
-    "stack": ["Ruby", "Rails", "React", "PostgreSQL", "bcrypt", "puma"],
+    "stack": ["Ruby", "Rails", "PostgreSQL", "bcrypt", "puma"],
     "documentation": [],
     "sla": "",
   },
